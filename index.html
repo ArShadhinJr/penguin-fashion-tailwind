@@ -1,12 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Penguin Fashion With Tailwind</title>
-</head>
-<body>
-    <h1>Penguin Fasion With Tailwind</h1>
-</body>
+    <!-- Main CSS StyleSheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Tailwind CSS StyleSheet  -->
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- Roboto and Babes Neue Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="bg-yellow-100 pb-10">
+      <div class="w-5/6 md:mx-auto ml-3">
+        <nav class="md:flex items-center justify-between py-8">
+          <div>
+            <img
+              href="index.html"
+              src="images/icons/Group 33072.png"
+              alt="ICON"
+              class="w-72 cursor-pointer"
+            />
+          </div>
+          <div>
+            <ul class="flex gap-5">
+              <li><a class="font-medium hover:text-black" href="#">Home</a></li>
+              <li>
+                <a
+                  class="font-medium text-gray-500 hover:text-black"
+                  href="https://www.facebook.com"
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <a
+                  class="font-medium text-gray-500 hover:text-black"
+                  href="https://www.twitter.com"
+                  >Twitter</a
+                >
+              </li>
+              <li>
+                <a
+                  class="font-medium text-gray-500 hover:text-black"
+                  href="https://www.linkedin.com"
+                  >Linkedin</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <section class="md:flex justify-between items-center">
+          <div class="space-y-4 pb-8">
+            <h1 class="text-7xl">
+              <span class="text-yellow-400">Be the Penguins</span><br />
+              <span class="text-gray-600">of Winter</span>
+            </h1>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing <br />
+              and typesetting industry.
+            </p>
+            <button
+              class="py-2 px-4 text-white font-bold bg-green-600 rounded-lg"
+            >
+              BUY NOW
+            </button>
+          </div>
+          <div>          </div>
+          <div>
+            <img src="images/image/model.png" alt="model" />
+          </div>
+          <div>          </div>
+        </section>
+      </div>
+    </header>
+    <main class="w-5/6 mx-auto"></main>
+    <footer class="w-5/6 mx-auto"></footer>
+  </body>
 </html>
